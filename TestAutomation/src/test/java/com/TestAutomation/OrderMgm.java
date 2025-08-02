@@ -75,9 +75,9 @@ public class OrderMgm {
 		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		Thread.sleep(1000);
-		js.executeScript("window.scrollBy(0, 700);"); // scrolls down 300 pixels
+		js.executeScript("window.scrollBy(0, 300);"); // scrolls down 300 pixels
 
-//		
+//		single product selection
 //		WebElement product= driver.findElement(By.id("product-autocomplete"));
 //	
 //		product.sendKeys("MITV");
